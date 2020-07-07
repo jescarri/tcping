@@ -56,6 +56,7 @@ type Target struct {
 	Counter  int
 	Interval time.Duration
 	Timeout  time.Duration
+	Verbose  bool
 }
 
 func (target Target) String() string {
